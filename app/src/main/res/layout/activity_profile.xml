@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".profile">
+
+
+    <TextView
+    android:id="@+id/text_view_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Student Profile"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+    android:textSize="40dp"
+    android:textColor="@color/black"
+    />
+    <ImageView
+    android:layout_width="225dp"
+    android:layout_height="181dp"
+    android:layout_gravity="center"
+    android:src="@drawable/me"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="30dp">
+    </ImageView>
+    <TextView
+    android:id="@+id/text_view_01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Hello , I am Khadiza. Study at Green
+        University of Bangladesh. Passionate about Problem Solving and Technology, I love to do drawing, travelling. Beyond that,
+       I love Hills and believe in honesty and truth. Excited to exploring technology. Let's connect!"
+    android:textSize="23sp"
+    android:paddingLeft="15dp"
+    android:layout_marginBottom="20dp"
+    android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Go Back">
+
+    </Button>
+
+
+</LinearLayout>
